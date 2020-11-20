@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weatherdata>
+  <apiChanges>
+    <!--NB!!! Since we have no other options to contact our users of forecast.xml, we have decided to use this method to get your attention to some major changes with our API-->
+    <!--In the first quarter next year, forecast.xml and forecast_hour_by_hour.xml will be discontinued in favour of a newer JSON API.-->
+    <!--Vi encourage you already now to switch to the new API.-->
+    <!--There are a lot of changes, and you can read all the technical details in our new developer portal https://developer.yr.no-->
+  </apiChanges>
+  <location>
+    <name>Linköping</name>
+    <type>Regional capital</type>
+    <country>Sweden</country>
+    <timezone id="Europe/Stockholm" utcoffsetMinutes="60" />
+    <location altitude="58" latitude="58.41086" longitude="15.62157" geobase="geonames" geobaseid="2694762" />
+  </location>
+  <credit>
+    <!--In order to use the free weather data from yr no, you HAVE to display 
+the following text clearly visible on your web page. The text should be a 
+link to the specified URL.-->
+    <!--Please read more about our conditions and guidelines at http://om.yr.no/verdata/  English explanation at http://om.yr.no/verdata/free-weather-data/-->
+    <link text="Weather forecast from Yr, delivered by the Norwegian Meteorological Institute and the NRK" url="http://www.yr.no/place/Sweden/Östergötland/Linköping/" />
+  </credit>
+  <links>
+    <link id="xmlSource" url="http://www.yr.no/place/Sweden/Östergötland/Linköping/forecast.xml" />
+    <link id="xmlSourceHourByHour" url="http://www.yr.no/place/Sweden/Östergötland/Linköping/forecast_hour_by_hour.xml" />
+    <link id="overview" url="http://www.yr.no/place/Sweden/Östergötland/Linköping/" />
+    <link id="hourByHour" url="http://www.yr.no/place/Sweden/Östergötland/Linköping/hour_by_hour" />
+    <link id="longTermForecast" url="http://www.yr.no/place/Sweden/Östergötland/Linköping/long" />
+  </links>
+  <meta>
+    <lastupdate>2020-11-20T07:51:00</lastupdate>
+    <nextupdate>2020-11-20T08:52:00</nextupdate>
+  </meta>
+  <sun rise="2020-11-20T07:58:24" set="2020-11-20T15:27:37" />
+  <forecast>
+    <tabular>
+      <time from="2020-11-20T09:00:00" to="2020-11-20T12:00:00" period="1">
+        <!-- Valid from 2020-11-20T09:00:00 to 2020-11-20T12:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="01d" />
+        <precipitation value="0" />
+        <!-- Valid at 2020-11-20T09:00:00 -->
+        <windDirection deg="291.1" code="WNW" name="West-northwest" />
+        <windSpeed mps="6.0" name="Moderate breeze" />
+        <temperature unit="celsius" value="2" />
+        <pressure unit="hPa" value="1016.8" />
+      </time>
+      <time from="2020-11-20T12:00:00" to="2020-11-20T18:00:00" period="2">
+        <!-- Valid from 2020-11-20T12:00:00 to 2020-11-20T18:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="01d" />
+        <precipitation value="0" />
+        <!-- Valid at 2020-11-20T12:00:00 -->
+        <windDirection deg="301.8" code="WNW" name="West-northwest" />
+        <windSpeed mps="6.0" name="Moderate breeze" />
+        <temperature unit="celsius" value="4" />
+        <pressure unit="hPa" value="1019.4" />
+      </time>
+      <time from="2020-11-20T18:00:00" to="2020-11-21T00:00:00" period="3">
+        <!-- Valid from 2020-11-20T18:00:00 to 2020-11-21T00:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="01n" />
+        <precipitation value="0" />
+        <!-- Valid at 2020-11-20T18:00:00 -->
+        <windDirection deg="269.3" code="W" name="West" />
+        <windSpeed mps="2.7" name="Light breeze" />
+        <temperature unit="celsius" value="1" />
+        <pressure unit="hPa" value="1023.7" />
+      </time>
+      <time from="2020-11-21T00:00:00" to="2020-11-21T06:00:00" period="0">
+        <!-- Valid from 2020-11-21T00:00:00 to 2020-11-21T06:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2020-11-21T00:00:00 -->
+        <windDirection deg="227.3" code="SW" name="Southwest" />
+        <windSpeed mps="2.6" name="Light breeze" />
+        <temperature unit="celsius" value="-1" />
+        <pressure unit="hPa" value="1025.5" />
+      </time>
+      <time from="2020-11-21T06:00:00" to="2020-11-21T12:00:00" period="1">
+        <!-- Valid from 2020-11-21T06:00:00 to 2020-11-21T12:00:00 -->
+        <symbol number="9" numberEx="46" name="Light rain" var="46" />
+        <precipitation value="0.9" minvalue="0.7" maxvalue="2.3" />
+        <!-- Valid at 2020-11-21T06:00:00 -->
+        <windDirection deg="192.3" code="SSW" name="South-southwest" />
+        <windSpeed mps="4.0" name="Gentle breeze" />
+        <temperature unit="celsius" value="1" />
+        <pressure unit="hPa" value="1021.4" />
+      </time>
+      <time from="2020-11-21T12:00:00" to="2020-11-21T18:00:00" period="2">
+        <!-- Valid from 2020-11-21T12:00:00 to 2020-11-21T18:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" minvalue="0" maxvalue="1.7" />
+        <!-- Valid at 2020-11-21T12:00:00 -->
+        <windDirection deg="203.5" code="SSW" name="South-southwest" />
+        <windSpeed mps="7.2" name="Moderate breeze" />
+        <temperature unit="celsius" value="4" />
+        <pressure unit="hPa" value="1013.1" />
+      </time>
+      <time from="2020-11-21T18:00:00" to="2020-11-22T00:00:00" period="3">
+        <!-- Valid from 2020-11-21T18:00:00 to 2020-11-22T00:00:00 -->
+        <symbol number="5" numberEx="5" name="Rain showers" var="05n" />
+        <precipitation value="1.7" minvalue="0" maxvalue="2.8" />
+        <!-- Valid at 2020-11-21T18:00:00 -->
+        <windDirection deg="217.3" code="SW" name="Southwest" />
+        <windSpeed mps="9.2" name="Fresh breeze" />
+        <temperature unit="celsius" value="7" />
+        <pressure unit="hPa" value="1004.2" />
+      </time>
+      <time from="2020-11-22T00:00:00" to="2020-11-22T06:00:00" period="0">
+        <!-- Valid from 2020-11-22T00:00:00 to 2020-11-22T06:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="01n" />
+        <precipitation value="0" />
+        <!-- Valid at 2020-11-22T00:00:00 -->
+        <windDirection deg="244.0" code="WSW" name="West-southwest" />
+        <windSpeed mps="8.3" name="Fresh breeze" />
+        <temperature unit="celsius" value="6" />
+        <pressure unit="hPa" value="1006.0" />
+      </time>
+      <time from="2020-11-22T06:00:00" to="2020-11-22T12:00:00" period="1">
+        <!-- Valid from 2020-11-22T06:00:00 to 2020-11-22T12:00:00 -->
+        <symbol number="2" numberEx="2" name="Fair" var="02d" />
+        <precipitation value="0" />
+        <!-- Valid at 2020-11-22T06:00:00 -->
+        <windDirection deg="228.1" code="SW" name="Southwest" />
+        <windSpeed mps="5.4" name="Gentle breeze" />
+        <temperature unit="celsius" value="4" />
+        <pressure unit="hPa" value="1003.7" />
+      </time>
+      <time from="2020-11-22T13:00:00" to="2020-11-22T19:00:00" period="2">
+        <!-- Valid from 2020-11-22T13:00:00 to 2020-11-22T19:00:00 -->
+        <symbol number="2" numberEx="2" name="Fair" var="02d" />
+        <precipitation value="0" />
+        <!-- Valid at 2020-11-22T13:00:00 -->
+        <windDirection deg="257.5" code="WSW" name="West-southwest" />
+        <windSpeed mps="8.7" name="Fresh breeze" />
+        <temperature unit="celsius" value="7" />
+        <pressure unit="hPa" value="1001.2" />
+      </time>
+      <time from="2020-11-22T19:00:00" to="2020-11-23T01:00:00" period="3">
+        <!-- Valid from 2020-11-22T19:00:00 to 2020-11-23T01:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="01n" />
+        <precipitation value="0" />
+        <!-- Valid at 2020-11-22T19:00:00 -->
+        <windDirection deg="253.0" code="WSW" name="West-southwest" />
+        <windSpeed mps="7.6" name="Moderate breeze" />
+        <temperature unit="celsius" value="8" />
+        <pressure unit="hPa" value="1001.1" />
+      </time>
+      <time from="2020-11-23T01:00:00" to="2020-11-23T07:00:00" period="0">
+        <!-- Valid from 2020-11-23T01:00:00 to 2020-11-23T07:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="01n" />
+        <precipitation value="0" />
+        <!-- Valid at 2020-11-23T01:00:00 -->
+        <windDirection deg="261.1" code="W" name="West" />
+        <windSpeed mps="6.7" name="Moderate breeze" />
+        <temperature unit="celsius" value="7" />
+        <pressure unit="hPa" value="1001.8" />
+      </time>
+      <time from="2020-11-23T07:00:00" to="2020-11-23T13:00:00" period="1">
+        <!-- Valid from 2020-11-23T07:00:00 to 2020-11-23T13:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="01d" />
+        <precipitation value="0" />
+        <!-- Valid at 2020-11-23T07:00:00 -->
+        <windDirection deg="272.2" code="W" name="West" />
+        <windSpeed mps="5.1" name="Gentle breeze" />
+        <temperature unit="celsius" value="6" />
+        <pressure unit="hPa" value="1003.1" />
+      </time>
+      <time from="2020-11-23T13:00:00" to="2020-11-23T19:00:00" period="2">
+        <!-- Valid from 2020-11-23T13:00:00 to 2020-11-23T19:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="01d" />
+        <precipitation value="0" />
+        <!-- Valid at 2020-11-23T13:00:00 -->
+        <windDirection deg="276.2" code="W" name="West" />
+        <windSpeed mps="5.2" name="Gentle breeze" />
+        <temperature unit="celsius" value="7" />
+        <pressure unit="hPa" value="1006.1" />
+      </time>
+      <time from="2020-11-23T19:00:00" to="2020-11-24T01:00:00" period="3">
+        <!-- Valid from 2020-11-23T19:00:00 to 2020-11-24T01:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="01n" />
+        <precipitation value="0" />
+        <!-- Valid at 2020-11-23T19:00:00 -->
+        <windDirection deg="278.6" code="W" name="West" />
+        <windSpeed mps="4.7" name="Gentle breeze" />
+        <temperature unit="celsius" value="4" />
+        <pressure unit="hPa" value="1010.4" />
+      </time>
+      <time from="2020-11-24T01:00:00" to="2020-11-24T07:00:00" period="0">
+        <!-- Valid from 2020-11-24T01:00:00 to 2020-11-24T07:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03n" />
+        <precipitation value="0" />
+        <!-- Valid at 2020-11-24T01:00:00 -->
+        <windDirection deg="258.1" code="WSW" name="West-southwest" />
+        <windSpeed mps="2.6" name="Light breeze" />
+        <temperature unit="celsius" value="2" />
+        <pressure unit="hPa" value="1013.6" />
+      </time>
+      <time from="2020-11-24T07:00:00" to="2020-11-24T13:00:00" period="1">
+        <!-- Valid from 2020-11-24T07:00:00 to 2020-11-24T13:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" minvalue="0" maxvalue="1.7" />
+        <!-- Valid at 2020-11-24T07:00:00 -->
+        <windDirection deg="237.6" code="WSW" name="West-southwest" />
+        <windSpeed mps="2.7" name="Light breeze" />
+        <temperature unit="celsius" value="3" />
+        <pressure unit="hPa" value="1012.9" />
+      </time>
+      <time from="2020-11-24T13:00:00" to="2020-11-24T19:00:00" period="2">
+        <!-- Valid from 2020-11-24T13:00:00 to 2020-11-24T19:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" minvalue="0" maxvalue="0.5" />
+        <!-- Valid at 2020-11-24T13:00:00 -->
+        <windDirection deg="214.5" code="SW" name="Southwest" />
+        <windSpeed mps="5.2" name="Gentle breeze" />
+        <temperature unit="celsius" value="8" />
+        <pressure unit="hPa" value="1007.5" />
+      </time>
+      <time from="2020-11-24T19:00:00" to="2020-11-25T01:00:00" period="3">
+        <!-- Valid from 2020-11-24T19:00:00 to 2020-11-25T01:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" minvalue="0" maxvalue="1.0" />
+        <!-- Valid at 2020-11-24T19:00:00 -->
+        <windDirection deg="228.9" code="SW" name="Southwest" />
+        <windSpeed mps="5.3" name="Gentle breeze" />
+        <temperature unit="celsius" value="8" />
+        <pressure unit="hPa" value="1007.0" />
+      </time>
+      <time from="2020-11-25T01:00:00" to="2020-11-25T07:00:00" period="0">
+        <!-- Valid from 2020-11-25T01:00:00 to 2020-11-25T07:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2020-11-25T01:00:00 -->
+        <windDirection deg="252.4" code="WSW" name="West-southwest" />
+        <windSpeed mps="5.0" name="Gentle breeze" />
+        <temperature unit="celsius" value="10" />
+        <pressure unit="hPa" value="1005.7" />
+      </time>
+      <time from="2020-11-25T07:00:00" to="2020-11-25T13:00:00" period="1">
+        <!-- Valid from 2020-11-25T07:00:00 to 2020-11-25T13:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2020-11-25T07:00:00 -->
+        <windDirection deg="220.4" code="SW" name="Southwest" />
+        <windSpeed mps="4.8" name="Gentle breeze" />
+        <temperature unit="celsius" value="10" />
+        <pressure unit="hPa" value="1005.3" />
+      </time>
+      <time from="2020-11-25T13:00:00" to="2020-11-25T19:00:00" period="2">
+        <!-- Valid from 2020-11-25T13:00:00 to 2020-11-25T19:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2020-11-25T13:00:00 -->
+        <windDirection deg="217.2" code="SW" name="Southwest" />
+        <windSpeed mps="5.0" name="Gentle breeze" />
+        <temperature unit="celsius" value="10" />
+        <pressure unit="hPa" value="1005.9" />
+      </time>
+      <time from="2020-11-25T19:00:00" to="2020-11-26T01:00:00" period="3">
+        <!-- Valid from 2020-11-25T19:00:00 to 2020-11-26T01:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2020-11-25T19:00:00 -->
+        <windDirection deg="241.4" code="WSW" name="West-southwest" />
+        <windSpeed mps="4.6" name="Gentle breeze" />
+        <temperature unit="celsius" value="9" />
+        <pressure unit="hPa" value="1005.1" />
+      </time>
+      <time from="2020-11-26T01:00:00" to="2020-11-26T07:00:00" period="0">
+        <!-- Valid from 2020-11-26T01:00:00 to 2020-11-26T07:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2020-11-26T01:00:00 -->
+        <windDirection deg="228.7" code="SW" name="Southwest" />
+        <windSpeed mps="3.9" name="Gentle breeze" />
+        <temperature unit="celsius" value="8" />
+        <pressure unit="hPa" value="1005.8" />
+      </time>
+      <time from="2020-11-26T07:00:00" to="2020-11-26T13:00:00" period="1">
+        <!-- Valid from 2020-11-26T07:00:00 to 2020-11-26T13:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2020-11-26T07:00:00 -->
+        <windDirection deg="202.2" code="SSW" name="South-southwest" />
+        <windSpeed mps="3.1" name="Light breeze" />
+        <temperature unit="celsius" value="7" />
+        <pressure unit="hPa" value="1006.6" />
+      </time>
+      <time from="2020-11-26T13:00:00" to="2020-11-26T19:00:00" period="2">
+        <!-- Valid from 2020-11-26T13:00:00 to 2020-11-26T19:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2020-11-26T13:00:00 -->
+        <windDirection deg="288.6" code="WNW" name="West-northwest" />
+        <windSpeed mps="4.3" name="Gentle breeze" />
+        <temperature unit="celsius" value="8" />
+        <pressure unit="hPa" value="1007.4" />
+      </time>
+      <time from="2020-11-26T19:00:00" to="2020-11-27T01:00:00" period="3">
+        <!-- Valid from 2020-11-26T19:00:00 to 2020-11-27T01:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03n" />
+        <precipitation value="0" />
+        <!-- Valid at 2020-11-26T19:00:00 -->
+        <windDirection deg="264.3" code="W" name="West" />
+        <windSpeed mps="3.3" name="Light breeze" />
+        <temperature unit="celsius" value="6" />
+        <pressure unit="hPa" value="1009.3" />
+      </time>
+      <time from="2020-11-27T01:00:00" to="2020-11-27T07:00:00" period="0">
+        <!-- Valid from 2020-11-27T01:00:00 to 2020-11-27T07:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03n" />
+        <precipitation value="0" />
+        <!-- Valid at 2020-11-27T01:00:00 -->
+        <windDirection deg="342.3" code="NNW" name="North-northwest" />
+        <windSpeed mps="2.5" name="Light breeze" />
+        <temperature unit="celsius" value="5" />
+        <pressure unit="hPa" value="1011.4" />
+      </time>
+      <time from="2020-11-27T07:00:00" to="2020-11-27T13:00:00" period="1">
+        <!-- Valid from 2020-11-27T07:00:00 to 2020-11-27T13:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2020-11-27T07:00:00 -->
+        <windDirection deg="358.7" code="N" name="North" />
+        <windSpeed mps="2.6" name="Light breeze" />
+        <temperature unit="celsius" value="4" />
+        <pressure unit="hPa" value="1012.4" />
+      </time>
+      <time from="2020-11-27T13:00:00" to="2020-11-27T19:00:00" period="2">
+        <!-- Valid from 2020-11-27T13:00:00 to 2020-11-27T19:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2020-11-27T13:00:00 -->
+        <windDirection deg="257.0" code="WSW" name="West-southwest" />
+        <windSpeed mps="3.3" name="Light breeze" />
+        <temperature unit="celsius" value="7" />
+        <pressure unit="hPa" value="1015.2" />
+      </time>
+      <time from="2020-11-27T19:00:00" to="2020-11-28T01:00:00" period="3">
+        <!-- Valid from 2020-11-27T19:00:00 to 2020-11-28T01:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2020-11-27T19:00:00 -->
+        <windDirection deg="230.9" code="SW" name="Southwest" />
+        <windSpeed mps="3.6" name="Gentle breeze" />
+        <temperature unit="celsius" value="5" />
+        <pressure unit="hPa" value="1014.8" />
+      </time>
+      <time from="2020-11-28T01:00:00" to="2020-11-28T07:00:00" period="0">
+        <!-- Valid from 2020-11-28T01:00:00 to 2020-11-28T07:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2020-11-28T01:00:00 -->
+        <windDirection deg="234.3" code="SW" name="Southwest" />
+        <windSpeed mps="3.1" name="Light breeze" />
+        <temperature unit="celsius" value="6" />
+        <pressure unit="hPa" value="1015.1" />
+      </time>
+      <time from="2020-11-28T07:00:00" to="2020-11-28T13:00:00" period="1">
+        <!-- Valid from 2020-11-28T07:00:00 to 2020-11-28T13:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2020-11-28T07:00:00 -->
+        <windDirection deg="213.2" code="SSW" name="South-southwest" />
+        <windSpeed mps="2.2" name="Light breeze" />
+        <temperature unit="celsius" value="5" />
+        <pressure unit="hPa" value="1016.5" />
+      </time>
+      <time from="2020-11-28T13:00:00" to="2020-11-28T19:00:00" period="2">
+        <!-- Valid from 2020-11-28T13:00:00 to 2020-11-28T19:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2020-11-28T13:00:00 -->
+        <windDirection deg="215.5" code="SW" name="Southwest" />
+        <windSpeed mps="3.8" name="Gentle breeze" />
+        <temperature unit="celsius" value="6" />
+        <pressure unit="hPa" value="1018.6" />
+      </time>
+      <time from="2020-11-28T19:00:00" to="2020-11-29T01:00:00" period="3">
+        <!-- Valid from 2020-11-28T19:00:00 to 2020-11-29T01:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2020-11-28T19:00:00 -->
+        <windDirection deg="220.0" code="SW" name="Southwest" />
+        <windSpeed mps="3.6" name="Gentle breeze" />
+        <temperature unit="celsius" value="6" />
+        <pressure unit="hPa" value="1020.6" />
+      </time>
+      <time from="2020-11-29T01:00:00" to="2020-11-29T07:00:00" period="0">
+        <!-- Valid from 2020-11-29T01:00:00 to 2020-11-29T07:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2020-11-29T01:00:00 -->
+        <windDirection deg="177.0" code="S" name="South" />
+        <windSpeed mps="2.6" name="Light breeze" />
+        <temperature unit="celsius" value="6" />
+        <pressure unit="hPa" value="1019.2" />
+      </time>
+    </tabular>
+  </forecast>
+  <weatherstation stno="0" sttype="" name="" distance="0" lat="0" lon="0" source="">
+    <!--Observasjoner er ikke lengre tilgjengelig i dette datasettet. Observations are no longer availble in this dataset-->
+    <symbol number="0" name="" time="2019-11-14T00:00:00Z" />
+    <temperature unit="" value="0" time="2019-11-14T00:00:00Z" />
+    <windDirection deg="0" code="" name="" time="2019-11-14T00:00:00Z" />
+    <windSpeed mps="0" name="" time="2019-11-14T00:00:00Z" />
+  </weatherstation>
+</weatherdata>
