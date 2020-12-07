@@ -150,7 +150,7 @@ bindsym $mod+Shift+7 move container to workspace number $ws7
 #Firefox siempre arranca en 2:Web
 assign [class="Firefox"] " "
 #Telegram siempre arranca en 5:Telegram
-assign [class="TelegramDesktop"] " "
+#assign [class="TelegramDesktop"] " "
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -222,7 +222,8 @@ bar {
 exec --no-startup-id feh --bg-scale /home/josu/wallpapers/wall.png
 exec --no-startup-id volumeicon
 bindsym $mod+Shift+f exec firefox
-#exec --no-startup-id picom
-exec --no-startup-id telegram-desktop
-exec --no-startup-id i3-msg 'workspace $ws4; exec mate-terminal -e htop'
-#exec --no-startup-id  i3-msg 'workspace $ws4; exec mate-terminal -e bpytop'
+exec --no-startup-id picom
+#exec --no-startup-id telegram-desktop
+exec --no-startup-id i3-msg 'workspace $ws5; exec mate-terminal -e "telegram-cli -W -N"'
+#exec --no-startup-id i3-msg 'workspace $ws4; exec mate-terminal -e htop'
+exec --no-startup-id  i3-msg 'workspace $ws4; exec mate-terminal -e bpytop'
